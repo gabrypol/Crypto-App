@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, {css} from 'styled-components';
+import {AppContext} from './AppProvider';
 
 const Bar = styled.div`
     margin-bottom: 40px;
@@ -22,11 +23,18 @@ function toProperCase(lower){
     return lower.charAt(0).toUpperCase() + lower.substr(1);
 }
 
-function ControlButton({name, active}){
+function ControlButton({name}){
     return (
-        <ControlButtonElem active={active}>
-            {toProperCase(name)}
-        </ControlButtonElem>
+        <AppContext.Consumer>
+            {({page, setPage}) => (
+            <ControlButtonElem 
+                active={page === name}
+                onClick={() => setPage(name)}
+            >
+                {toProperCase(name)}
+            </ControlButtonElem>
+        )}
+        </AppContext.Consumer>
     )
 }
 
