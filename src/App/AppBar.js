@@ -9,7 +9,7 @@ const Bar = styled.div`
 `
 
 const Logo = styled.div`
-    font-size: 1 .5rem;
+    font-size: 1.5rem;
 `
 
 const ControlButtonElem = styled.div`
