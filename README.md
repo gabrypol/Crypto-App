@@ -19,4 +19,5 @@
 <br /><br />
 
 3. "Dashboard" page on iPhone 8:
+
    ![](images/image03.png)
