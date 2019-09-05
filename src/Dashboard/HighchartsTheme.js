@@ -57,17 +57,17 @@ export default {
         labels: {
             style: {
                 color: '#A0A0A0'
-            }
+            } 
         },
         lineColor: '#A0A0A0',
         minorTickInterval: null,
         tickColor: '#A0A0A0',
-        tickWidth: 1,
+        tickWidth: 0,
         title: {
             style: {
                 color: '#061a44',
                 fontWeight: 'bold',
-                fontSize: '12px',
+                fontSize: '16px',
                 fontFamily: 'Trebuchet MS, Verdana, sans-serif'
             }
         }

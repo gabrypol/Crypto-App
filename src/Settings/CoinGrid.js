@@ -5,9 +5,9 @@ import CoinTile from './CoinTile';
 
 export const CoinGridStyled = styled.div`
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
     grid-gap: 15px;
-    margin-top: 40px;
+    margin-top: 10px;
 `
 
 function getLowerSectionCoins(coinList, filteredCoins){

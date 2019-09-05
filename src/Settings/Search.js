@@ -13,6 +13,10 @@ const SearchGrid = styled.div`
     }
 `
 
+const SearchLabel = styled.h2`
+    margin: 10px 0px 0px 0px;
+`
+
 const SearchInput = styled.input`
     ${backgroundColor2}
     ${fontSize2}
@@ -60,7 +64,7 @@ export default function(){
         <AppContext.Consumer>
             {({setFilteredCoins, coinList}) => 
                 <SearchGrid> 
-                    <h2> Search Coin </h2>
+                    <SearchLabel> Search Coin </SearchLabel>
                     <SearchInput onKeyUp={(e) => filteredCoins(e, setFilteredCoins, coinList)}/>
                 </SearchGrid>
             }

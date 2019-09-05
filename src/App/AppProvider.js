@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import moment, { updateLocale } from 'moment';
+import moment from 'moment';
 
 // Cryptocompare API
 const cc = require('cryptocompare');

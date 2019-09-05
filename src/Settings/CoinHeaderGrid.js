@@ -5,6 +5,7 @@ import {DeletableTile} from '../Shared/Tile';
 export const CoinHeaderGridStyled = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
+    overflow: hidden;
 `;
 
 export const CoinSymbol = styled.div`
