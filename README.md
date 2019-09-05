@@ -6,12 +6,17 @@
 4. Type on your terminal 'yarn start' and press ENTER.
 5. Chrome will open and go to the local host 'http://localhost:3000/'.
 
-# How to use Crypto Dashboard:
+# Responsive on all devices:
 
-1. Press on the "Square" button to load the page in Square view:
+1. "Settings" page on iPad:
    ![](images/image01.png)
 
 <br /><br />
 
-2. Press on the "Cascade" button to load the page in Cascade view:
+2. "Dashboard" page on iPad:
    ![](images/image02.png)
+
+<br /><br />
+
+3. "Dashboard" page on iPhone 8:
+   ![](images/image03.png)

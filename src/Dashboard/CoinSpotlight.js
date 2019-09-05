@@ -9,7 +9,6 @@ const SpotlightTileDashboard = styled(Tile)`
     justify-content: start;
     @media (max-width: 400px) {
         grid-template-columns: auto auto;
-
         justify-content: space-around;
     }
 `
