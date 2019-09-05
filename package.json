@@ -5,6 +5,7 @@
   "dependencies": {
     "cryptocompare": "^1.0.0",
     "fuzzy": "^0.1.3",
+    "gh-pages": "^2.1.1",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "react": "^16.9.0",
@@ -13,11 +14,13 @@
     "react-scripts": "3.1.1",
     "styled-components": "^4.3.2"
   },
+  "homepage": "https://gabrypol.github.io/Crypto-App/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
