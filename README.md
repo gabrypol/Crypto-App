@@ -9,11 +9,13 @@
 # Responsive on all devices:
 
 1. "Settings" page on iPad:
+
    ![](images/image01.png)
 
 <br /><br />
 
 2. "Dashboard" page on iPad:
+
    ![](images/image02.png)
 
 <br /><br />
