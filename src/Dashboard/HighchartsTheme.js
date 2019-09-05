@@ -65,7 +65,7 @@ export default {
         tickWidth: 1,
         title: {
             style: {
-                color: '#CCC',
+                color: '#061a44',
                 fontWeight: 'bold',
                 fontSize: '12px',
                 fontFamily: 'Trebuchet MS, Verdana, sans-serif'

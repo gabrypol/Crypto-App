@@ -7,13 +7,17 @@ import fuzzy from 'fuzzy';
 
 const SearchGrid = styled.div`
     display: grid;
-    grid-template-columns: 200px 1fr;
+    grid-template-columns: 150px 150px;
+    @media (max-width: 400px) {
+        grid-template-columns: 150px;
+    }
 `
 
 const SearchInput = styled.input`
     ${backgroundColor2}
     ${fontSize2}
     border: 1px solid;
+    border-radius: 50px;
     height: 25px;
     color: #1163c9;
     place-self: center left;
@@ -56,7 +60,7 @@ export default function(){
         <AppContext.Consumer>
             {({setFilteredCoins, coinList}) => 
                 <SearchGrid> 
-                    <h2> Search all coins </h2>
+                    <h2> Search Coin </h2>
                     <SearchInput onKeyUp={(e) => filteredCoins(e, setFilteredCoins, coinList)}/>
                 </SearchGrid>
             }

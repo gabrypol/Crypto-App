@@ -6,5 +6,6 @@ export default styled.select`
     ${fontSize2};
     color: #1163c9;
     border: 1px solid;
-    float: right;
+    width: 95px;
+    justify-self: end;
 `;

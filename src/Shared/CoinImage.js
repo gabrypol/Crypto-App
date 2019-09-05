@@ -4,7 +4,7 @@ import styled, {css} from 'styled-components';
 const CoinImage = styled.img`
     height: 50px;
     ${props => props.spotlight && css`
-        height: 200px;
+        height: 100px;
         margin: auto;
         display: block;
     `}
