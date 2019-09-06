@@ -11,6 +11,8 @@ export const AppContext = React.createContext();
 const MAX_FAVORITES = 10;
 const TIME_UNITS = 10;
 
+
+
 export class AppProvider extends React.Component {
     constructor(props){
         super(props);
@@ -30,11 +32,18 @@ export class AppProvider extends React.Component {
         }
     }
 
+    
     componentDidMount = () => {
+        // Reload chart when screen size changes
+        window.addEventListener("resize", this.fetchHistorical);
+
         this.fetchCoins();
         this.fetchPrices();
         this.fetchHistorical();
     }
+
+    
+
 
     fetchCoins = async () => {
         let coinList = (await cc.coinList()).Data;
