@@ -5,7 +5,7 @@ import {fontSize1, greenBoxShadow, subtleBoxShadow} from '../Shared/Styles';
 
 const ConfirmButtonStyled = styled.div`
     margin: 10px 10px 20px 10px;
-    border: 2px solid rgb(6, 26, 68);
+    border: 1px solid rgb(6, 26, 68);
     ${subtleBoxShadow};
     border-radius: 50px;
     color: rgb(6, 26, 68);
