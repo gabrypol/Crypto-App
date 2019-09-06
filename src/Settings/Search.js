@@ -11,10 +11,11 @@ const SearchGrid = styled.div`
     @media (max-width: 400px) {
         grid-template-columns: 150px;
     }
+    margin-top: 10px;
 `
 
 const SearchLabel = styled.h2`
-    margin: 10px 0px 0px 0px;
+    margin: 0px;
 `
 
 const SearchInput = styled.input`
